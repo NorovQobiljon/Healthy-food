@@ -1,0 +1,449 @@
+@import url('https://fonts.googleapis.com/css2?family=Philosopher:wght@700&family=Roboto:wght@500;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Philosopher:wght@700&family=Roboto:wght@400;500&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+/* font-family: 'Philosopher', sans-serif;
+font-family: 'Roboto', sans-serif; */
+nav {
+    width: 1120px;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 30px;
+}
+
+.list {
+    display: flex;
+    gap: 41px;
+}
+
+.nav-left {
+    display: flex;
+    gap: 35px;
+    align-items: center;
+}
+
+.list-item {
+    color: gray;
+    font-family: Roboto;
+    font-size: 16px;
+    font-weight: 400;
+}
+
+.list-item:hover {
+    color: #DC780B;
+    cursor: pointer;
+}
+
+.btn {
+    color: #FFF;
+    width: 155px;
+    height: 46px;
+    background-color: #DC780B;
+    font-family: Roboto;
+    font-size: 16px;
+    font-weight: 400;
+    border: none;
+    border-radius: 5px;
+}
+
+.btn:hover {
+    background-color: rgb(249, 83, 83);
+    color: white;
+    cursor: progress;
+}
+
+.header_info {
+    width: 1120px;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.left-text {
+    color: black;
+    font-family: Philosopher;
+    font-size: 48.63px;
+    font-weight: 700;
+    margin-bottom: 35px;
+}
+
+.text {
+    color: gray;
+    font-family: Roboto;
+    font-size: 13px;
+    font-weight: 500;
+    margin-bottom: 35px;
+}
+
+.right-img {
+    width: 551px;
+    height: 470px;
+}
+
+.food {
+    color: #DC780B;
+    width: 155px;
+    height: 46px;
+    background-color: white;
+    font-family: Roboto;
+    font-size: 16px;
+    font-weight: 400;
+    border: none;
+    border-radius: 5px;
+}
+
+.food:hover {
+    color: #FFF;
+    background-color: #DC780B;
+    cursor: progress;
+}
+
+.section-text {
+    color: #DC780B;
+    text-align: center;
+    font-family: Roboto;
+    font-size: 16px;
+    font-weight: 500;
+    letter-spacing: 3.2px;
+    text-transform: uppercase;
+}
+
+.section-food {
+    color: #150C01;
+    font-family: Philosopher;
+    font-size: 31.25px;
+    font-weight: 700;
+    text-transform: capitalize;
+    text-align: center;
+    margin-top: 10px;
+}
+
+.passion {
+    width: 1120px;
+    height: 400px;
+    text-align: center;
+    display: flex;
+    justify-content: space-between;
+    margin: auto;
+    margin-top: 60px;
+}
+
+.pas {
+    width: 280px;
+    height: 228px;
+}
+
+.passion-text {
+    padding-top: 35px;
+    padding-bottom: 10px;
+    color: #150C01;
+    font-family: Philosopher;
+    font-size: 25px;
+    font-weight: 700;
+}
+
+.money {
+    color: gray;
+}
+
+.main-start {
+    width: 1120px;
+    height: 500px;
+    display: flex;
+    margin: auto;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.main-right {
+    width: 475px;
+    height: 315px;
+}
+
+.main-img {
+    border-radius: 30px;
+}
+
+.main-text {
+    color: #DC780B;
+    font-family: Roboto;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 24px;
+    letter-spacing: 0.2em;
+    text-align: left;
+}
+
+.main-plane {
+    font-family: Philosopher;
+    font-size: 31px;
+    font-weight: 700;
+    line-height: 41px;
+    text-align: left;
+}
+
+.main-just {
+    color: gray;
+    font-family: Roboto;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    text-align: left;
+    padding-top: 15px;
+    padding-bottom: 30px;
+}
+
+.footer-start {
+    width: 1120px;
+    height: 1120px;
+    text-align: center;
+    margin: auto;
+}
+
+.footer-menu {
+    color: #DC780B;
+    font-family: Roboto;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 24px;
+    letter-spacing: 0.2em;
+    padding-top: 44px;
+}
+
+.footer-full {
+    font-family: Philosopher;
+    font-size: 31px;
+    font-weight: 700;
+    line-height: 24px;
+    padding-top: 10px;
+}
+
+.footer-text {
+    color: gray;
+    width: 740px;
+    height: 50px;
+    font-family: Roboto;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    margin: auto;
+    padding-top: 25px;
+}
+
+.footer-father {
+    width: 1120px;
+    height: 450px;
+    margin-top: 25px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.card {
+    width: 360px;
+    height: 440px;
+}
+
+.footer-vegie {
+    font-family: Philosopher;
+    font-size: 25px;
+    font-weight: 700;
+    line-height: 24px;
+    text-align: center;
+    padding-top: 10px;
+}
+
+span {
+    color: green;
+}
+
+.fast-food {
+    width: 310px;
+    height: 38px;
+    padding-top: 15px;
+    margin: auto;
+}
+
+.plus {
+    color: white;
+    width: 50px;
+    height: 50px;
+    background: #DC780B;
+    border: none;
+    border-radius: 5px;
+    margin-top: 25px;
+    cursor: pointer;
+}
+
+.footer-end {
+    width: 142px;
+    height: 42px;
+    border-radius: 5px;
+    color: #DC780B;
+    font-family: Roboto;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 19px;
+    margin-top: 61px;
+    text-align: center;
+    cursor: progress;
+    border: none;
+}
+
+.footer-end:hover {
+    color: #FFF;
+    background-color: #DC780B;
+}
+
+.market {
+    width: 100%;
+    height: 550px;
+    margin: auto;
+    margin-top: 200px;
+    background-color: rgb(255, 231, 231);
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.market-plane {
+    color: #DC780B;
+    font-family: Roboto;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 24px;
+    letter-spacing: 0.2em;
+    text-align: left;
+    padding-bottom: 10px;
+}
+
+.market-food {
+    width: 500px;
+    height: 70px;
+    font-family: Philosopher;
+    font-size: 31px;
+    font-weight: 700;
+    line-height: 41px;
+    letter-spacing: 0em;
+    text-align: left;
+    padding-bottom: 20px;
+}
+
+.market-text {
+    width: 550px;
+    height: 66px;
+    opacity: 0.7px;
+    font-family: Roboto;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    text-align: left;
+    padding-bottom: 25px;
+}
+
+.market-btn1 {
+    width: 160px;
+    height: 45px;
+    font-family: 'Philosopher', sans-serif;
+    border-radius: 5px;
+    background-color: #150C01;
+    color: #FFF;
+    text-transform: uppercase;
+    border: none;
+    cursor: progress;
+    margin: 10px;
+}
+
+.market-btn1:hover {
+    background-color: #FFF;
+    color: #150C01;
+}
+
+.market-btn2 {
+    width: 170px;
+    height: 45px;
+    border-radius: 5px;
+    border: 1.5px;
+    color: #DC780B;
+    background-color: #FFF;
+    text-transform: uppercase;
+    font-family: 'Philosopher', sans-serif;
+    cursor: progress;
+}
+
+.market-btn2:hover {
+    color: #FFF;
+    background-color: #DC780B;
+}
+
+.market-img {
+    border-radius: 47px;
+    box-shadow: 1px 1px 8px black;
+}
+
+.mother {
+    width: 1120px;
+    height: 450px;
+    margin: auto;
+    margin-top: 200px;
+    text-align: center;
+}
+
+.test {
+    font-family: Roboto;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 24px;
+    letter-spacing: 0.2em;
+    text-transform: uppercase;
+    color: #DC780B;
+    padding-bottom: 10px;
+}
+
+.making {
+    font-family: Philosopher;
+    font-size: 31px;
+    font-weight: 700;
+    line-height: 24px;
+    padding-bottom: 23px;
+}
+
+.manage {
+    width: 700px;
+    height: 62px;
+    margin: auto;
+    padding-bottom: 73px;
+    font-family: Roboto;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    color: gray;
+}
+
+.again {
+    padding-bottom: 41px;
+}
+
+.women {
+    width: 506px;
+    height: 59px;
+    font-family: Roboto;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    color: gray;
+    margin: auto;
+}
+.nice{
+    padding-top: 20px;
+}
+.augusta{
+    padding-top: 32px;
+    padding-bottom: 5px;
+}
